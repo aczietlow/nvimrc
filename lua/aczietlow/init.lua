@@ -1,6 +1,5 @@
-require 'aczietlow.vim'
-
 require 'aczietlow.map'
+require 'aczietlow.vim'
 
 --local lazy = require 'lazydev'
 
