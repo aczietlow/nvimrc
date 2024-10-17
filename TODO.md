@@ -1,0 +1,3 @@
+- [x] Get harpoon setup 
+- [ ] Add go debug, build, and execute 
+- [ ] Find git tool
