@@ -43,10 +43,10 @@ return {
     end, { desc = 'Harpoon: Select 2' })
     vim.keymap.set('n', '<C-3>', function()
       harpoon:list():select(3)
-    end, { desc = 'Harppon: Select 3' })
+    end, { desc = 'Harpoon: Select 3' })
     vim.keymap.set('n', '<C-4>', function()
       harpoon:list():select(4)
-    end, { desc = 'Harppon: Select 4' })
+    end, { desc = 'Harpoon: Select 4' })
 
     --[====[ 
     vim.keymap.set('n', '<leader><C-h>', function()
