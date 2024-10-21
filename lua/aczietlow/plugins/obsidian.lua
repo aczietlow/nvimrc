@@ -1,3 +1,4 @@
+vim.opt_local.conceallevel = 1
 return {
   'epwalsh/obsidian.nvim',
   version = '*', -- recommended, use latest release instead of latest commit
