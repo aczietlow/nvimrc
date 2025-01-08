@@ -14,6 +14,7 @@ vim.keymap.set('n', '<leader>gr', function()
     local escaped_file = vim.fn.shellescape(file)
     vim.cmd 'vsplit'
     vim.cmd('terminal go run ' .. escaped_file)
+    -- vim.cmd("startinsert")
   else
     vim.cmd "echo 'Not a Go file.'"
   end
